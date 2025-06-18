@@ -154,3 +154,18 @@ margin: 0 auto;
 padding: 0;
 text-align: center;
 }
+
+@layer utilities {
+  @keyframes zoom-in-out {
+    0%, 100% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(1.05);
+    }
+  }
+
+  .animate-zoom-in-out {
+    animation: zoom-in-out 4s ease-in-out infinite;
+  }
+}
