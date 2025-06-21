@@ -81,18 +81,16 @@
     --primary-foreground: 213 31% 91%;
     --border: 217 33% 20%;
   }
-  * {
-
-@apply border-border; }
-
+  
+ * {
+@apply border-border;
+ }
 html {
-
-@apply scroll-smooth; }
+@apply scroll-smooth;
+ }
 
 body{
-
 @apply bg-background text-foreground transition-colors duration-300;
-
 font-feature-settings: "rlig" 1, "calt";}
 }
 
@@ -169,3 +167,16 @@ text-align: center;
     animation: zoom-in-out 4s ease-in-out infinite;
   }
 }
+
+/* Custom utility class to hide scrollbars */
+@layer utilities {
+  .hide-scrollbar {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+  }
+
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+}
+
