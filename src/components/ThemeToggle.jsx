@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import { cn } from '../lib/utils';
 
 const ThemeToggle = () => {
-    const [isDarkMode,setIsDarkMode]= useState(true);
+    const [isDarkMode,setIsDarkMode]= useState(false);
 
 
     useEffect(() => {
