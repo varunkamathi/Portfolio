@@ -70,7 +70,7 @@ const AboutSection = () => {
 
 
           <div
-            className="md:basis-[40%] w-full bg-black backdrop-blur-sm p-6 rounded-xl shadow-md bg-gradient-to-r from-purple-800 via-red-800 to-indigo-800"
+            className="md:basis-[40%] w-full bg-black backdrop-blur-sm p-6 rounded-xl shadow-md bg-gradient-to-r from-[#1e1e2f] via-[#3a0ca3] to-[#4361ee]"
             data-aos="fade-left"
           >
             

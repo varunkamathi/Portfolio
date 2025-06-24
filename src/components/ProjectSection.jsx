@@ -17,7 +17,7 @@ const projects = [
     title: "Blog",
     image: Project3,
     link: "https://varunsblog.onrender.com/",
-    tags: ["#ejs", "#express", "#nodejs"],
+    tags: ["#reactjs", "#express", "#nodejs", "#javascript","#mongodb"],
     description: "A full-featured developer blog with rich content rendering and user-friendly interface.",
     status: "completed"
   },
@@ -25,7 +25,7 @@ const projects = [
     title: "E-commerce UI",
     image: Project2,
     link: "https://e-commerce-seven-jade-70.vercel.app/",
-    tags: ["#react", "#tailwind", "#design"],
+    tags: ["#react", "#tailwind", "#javascript","#clerk auth"],
     description: "An elegant and responsive UI for an online store, built for seamless shopping experiences.",
     status: "completed"
   }
