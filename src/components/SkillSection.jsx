@@ -42,13 +42,6 @@ const aboutCards = [
   icon: <FaUsers size={32} style={{ color: "#4ADE80" }} />, // Green (Team/Success theme)
 },
 {
-  title: "Continuous Learner",
-  description: "Always exploring new technologies and best practices.",
-  color: "bg-white/10 backdrop-blur-sm",
-  icon: <FaBook size={32} style={{ color: "#6366F1" }} />, // Indigo (Learning/Knowledge)
-},
-
-{
   title: "API Testing",
   description: "Experienced in validating APIs using Postman and Insomnia to ensure backend reliability.",
   color: "bg-white/10 backdrop-blur-sm",
@@ -77,7 +70,7 @@ const SkillSection = () => {
   });
 }, []);
   return (
-    <section id='skills' className='py-24 px-4 relative'>
+    <section id='skills' className='py-4 px-4 relative'>
       <div className='container mx-auto max-w-5xl'>
         <h1 className='text-3xl md:text-4xl font-bold mb-12 text-center'>
           Skill<span className='text-primary'>s</span>

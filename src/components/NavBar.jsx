@@ -7,7 +7,6 @@ const navitem = [
   { name: "About", href: "#about" },
   { name: "Projects", href: "#projects" },
   { name: "Skills", href: "#skills" },
-  { name: "Contact", href: "#contact" },
 ];
 
 const NavBar = () => {
@@ -30,16 +29,10 @@ const NavBar = () => {
         isScrolled ? "py-3 bg-background/80 backdrop-blur-md shadow-xs" : "py-5"
       )}
     >
-      <div className="container flex items-center justify-between">
-        {/* Logo */}
-        <a className="text-xl font-bold text-primary flex items-center" href="#hero">
-          <span className="relative z-10">
-            <span className="text-glow text-foreground">Varun</span> Portfolio
-          </span>
-        </a>
-
+      <div className="container flex items-center justify-center ">
+      
         {/* Desktop nav */}
-        <div className="hidden md:flex space-x-8">
+        <div className="hidden md:flex space-x-8 ">
           {navitem.map((item, key) => (
             <a
               key={key}

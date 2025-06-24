@@ -23,7 +23,7 @@ const AboutSection = () => {
         <div className="flex flex-col md:flex-row mt-6 gap-6 items-center">
           {/* Left Card */}
           <div
-            className="md:basis-[40%] w-full relative rounded-xl p-6 text-white bg-black h-90 flex flex-col justify-between overflow-hidden"
+            className="md:basis-[40%] w-full relative rounded-xl p-6 text-white bg-black h-77 flex flex-col justify-between overflow-hidden"
             data-aos="fade-right"
           >
             <img
@@ -33,18 +33,16 @@ const AboutSection = () => {
             />
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <h2 className="text-xl font-bold"> Skilled in debugging and resolving errors with a logical, detail-oriented approach.</h2>
+                <h2 className="text-xl font-bold"> Skilled in debugging and resolving errors with a logical approach.</h2>
               </div>
              
             </div>
           </div>
 
           {/* Right Card */}
-          <div className="md:basis-[60%] w-full" data-aos="fade-left">
-            <h1 className='text-2xl font-extrabold mb-3'>
-              Consistency counts but it's quality that leaves a mark.
-            </h1>
-            <div className="rounded-xl p-1 bg-gradient-to-r from-blue-400 via-purple-500 to-indigo-500">
+          <div className="md:basis-[60%] w-full h-77" data-aos="fade-left">
+            
+            <div className="rounded-xl p-1">
               <div className="h-full w-full rounded-xl overflow-hidden">
                 <img
                   src={Git}
@@ -72,13 +70,13 @@ const AboutSection = () => {
 
 
           <div
-            className="md:basis-[40%] w-full bg-black backdrop-blur-sm p-6 rounded-xl shadow-md text-white"
+            className="md:basis-[40%] w-full bg-black backdrop-blur-sm p-6 rounded-xl shadow-md bg-gradient-to-r from-purple-800 via-red-800 to-indigo-800"
             data-aos="fade-left"
           >
-            <h2 className="text-xl font-bold mb-2">UI/UX Mindset</h2>
-            <p className="text-sm leading-relaxed">
-              I focus on clean, responsive, and accessible UI using tools like Tailwind CSS, Figma, and React component libraries to ensure great user experience.
-            </p>
+            
+            <h1 className="text-xl font-bold leading-relaxed ">
+            Hey, I’m Varun Kamathi a MERN stack developer from India, crafting responsive UIs and
+            powerful APIs to build seamless full-stack web applications.            </h1>
           </div>
         </div>
 
