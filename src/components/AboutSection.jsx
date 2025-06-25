@@ -1,10 +1,10 @@
-import { FaReact, FaNodeJs, FaFigma, FaCode, FaUsers, FaBook, FaGithub, FaCheckCircle } from 'react-icons/fa';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import React, { useEffect } from 'react';
 import Git from "../assets/git.png";
 import Code from "../assets/code.png";
-import MERNImage from "../assets/MERN.png"; // adjust path as needed
+import MERNImage from "../assets/MERN2.png";
+import PC from "../assets/pc.png"
 
 
 const AboutSection = () => {
@@ -70,14 +70,23 @@ const AboutSection = () => {
 
 
           <div
-            className="md:basis-[40%] w-full bg-black backdrop-blur-sm p-6 rounded-xl shadow-md bg-gradient-to-r from-[#1e1e2f] via-[#3a0ca3] to-[#4361ee]"
-            data-aos="fade-left"
-          >
-            
-            <h1 className="text-xl font-bold leading-relaxed ">
-            Hey, I’m Varun Kamathi a MERN stack developer from India, crafting responsive UIs and
-            powerful APIs to build seamless full-stack web applications.            </h1>
-          </div>
+  className="md:basis-[40%] w-full relative backdrop-blur-sm p-6 rounded-xl shadow-md overflow-hidden"
+  data-aos="fade-left"
+  style={{backgroundColor: "#020b11"}}
+>
+  {/* Background Image Positioned at Bottom Right */}
+  <img
+    src={PC}
+    alt="PC Background"
+    className="absolute bottom-0 right-0 w-[35%]  pointer-events-none select-none object-contain"
+  />
+
+  {/* Foreground Text Content */}
+  <h1 className="text-xl font-bold leading-relaxed relative z-10 text-left w-[60%] text-white">
+    Hi, I'm Varun, MERN stack developer from India. I build scalable web apps witu seamless UI/UX.
+  </h1>
+</div>
+
         </div>
 
         {/* Third Row */}
