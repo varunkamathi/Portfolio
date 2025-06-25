@@ -23,7 +23,7 @@ const AboutSection = () => {
         <div className="flex flex-col md:flex-row mt-6 gap-6 items-center">
           {/* Left Card */}
           <div
-            className="md:basis-[40%] w-full relative rounded-xl p-6 text-white bg-black h-65 flex flex-col justify-between overflow-hidden"
+            className="md:basis-[40%] w-full relative rounded-xl p-6 text-white bg-black h-77 flex flex-col justify-between overflow-hidden"
             data-aos="fade-right"
           >
             <img
