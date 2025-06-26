@@ -90,6 +90,7 @@ const AboutSection = () => {
         </div>
 
         {/* Third Row */}
+        {/*
         <div className="flex flex-col md:flex-row gap-6 w-full mt-5">
           <div
             className="md:basis-[35%] w-full bg-black backdrop-blur-sm p-6 rounded-xl shadow-md text-white h-60"
@@ -111,6 +112,7 @@ const AboutSection = () => {
             </p>
           </div>
         </div>
+        */}
       </div>
     </section>
   );

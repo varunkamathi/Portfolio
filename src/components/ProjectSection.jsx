@@ -42,7 +42,7 @@ const ProjectSection = () => {
 
         <div className="flex flex-col gap-10 items-center">
           {projects.map((project, index) => (
-            <div key={index} className="bg-gradient-to-br from-[#1c1c1c] to-[#1a001f] rounded-2xl p-4 max-w-xl w-full shadow-md">
+            <div key={index} className="bg-black backdrop-blur-sm rounded-2xl p-4 max-w-xl w-full shadow-md">
               <div className="relative rounded-xl overflow-hidden">
                 <img src={project.image} alt={project.title} className="rounded-xl w-full h-78 object-cover border border-purple-800" />
                 <div className="absolute top-4 left-4 bg-green-600 text-white text-xs font-semibold px-3 py-1 rounded-full shadow-lg">
