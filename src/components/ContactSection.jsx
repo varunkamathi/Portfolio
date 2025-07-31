@@ -16,7 +16,7 @@ const ContactSection = () => {
       Reach out to me today, let's discuss how I can help you
     </p>
     <a
-      href="mailto:varunakamthi522004@gmail.com"
+      href="mailto:varunkamathi522004@gmail.com"
       className="inline-flex items-center justify-center px-8 py-3 border border-purple-500 rounded-lg hover:bg-purple-600 transition duration-300"
     >
       Let’s get in touch <Send className="ml-2 w-4 h-4" />
