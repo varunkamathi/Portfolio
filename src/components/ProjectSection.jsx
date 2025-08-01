@@ -3,6 +3,8 @@ import { FaGlobe, FaGithub } from 'react-icons/fa';
 import Project1 from "../assets/project1.png";
 import Project2 from "../assets/project2.png";
 import Project3 from "../assets/project3.png";
+import Project4 from "../assets/project4.png";
+
 
 const projects = [
   {
@@ -27,6 +29,14 @@ const projects = [
     link: "https://e-commerce-seven-jade-70.vercel.app/",
     tags: ["#react", "#tailwind", "#javascript","#clerk auth"],
     description: "An elegant and responsive UI for an online store, built for seamless shopping experiences.",
+    status: "completed"
+  },
+  {
+    title: "E-commerce UI",
+    image: Project4,
+    link: "https://ai-resume-theta-one.vercel.app/",
+    tags: ["#react", "#tailwind", "#typescript","#puter.js", "#OpenAI","#react Router"],
+    description: "An AI-powered resume builder that helps users create professional resumes with ease.",
     status: "completed"
   }
 ];
