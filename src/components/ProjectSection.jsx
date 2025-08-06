@@ -32,7 +32,7 @@ const projects = [
     status: "completed"
   },
   {
-    title: "E-commerce UI",
+    title: "ResuMind",
     image: Project4,
     link: "https://ai-resume-theta-one.vercel.app/",
     tags: ["#react", "#tailwind", "#typescript","#puter.js", "#OpenAI","#react Router"],
